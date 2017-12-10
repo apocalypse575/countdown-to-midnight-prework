@@ -10,8 +10,8 @@ end
 
 def countdown_with_sleep(number)
   while number >= 0
-    STDOUT = "#{number} SECOND(S)!"
-    puts STDOUT
+    stdout = "#{number} SECOND(S)!"
+    puts stdout
     number -= 1
     sleep 1
 end
